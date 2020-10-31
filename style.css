@@ -1,0 +1,22 @@
+#header {
+  text-align: center;
+  background-color: rgb(90, 86, 86);
+}
+
+.container1 {
+  float: left;
+  width: 25%;
+  clear: both;
+}
+.container2 {
+  padding-left: 30%;
+  float: center;
+  clear: center;
+}
+.article {
+  float: left;
+  clear: both;
+}
+.section {
+  margin-top: 10px;
+}
