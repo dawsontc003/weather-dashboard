@@ -4,7 +4,7 @@ var date = moment().format("l");
 $(document).ready(function () {
   // API URL stored as variable...
   var apiURL =
-    "http://api.openweathermap.org/data/2.5/weather?units=imperial&q=";
+    "https://api.openweathermap.org/data/2.5/weather?units=imperial&q=";
   // API key variable
   var apiKey = "&appid=cad1a2ecb6a3fa2256d10992dbd96291";
   // Event listener for Search button
