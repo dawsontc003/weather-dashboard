@@ -26,11 +26,47 @@
   margin-top: 10px;
 }
 .currentWeathersecion {
-  background-color: gray;
   margin: 5px;
-  border-width: 10%;
+  border-style: ridge;
+  border-width: 1px;
   border-color: black;
+  border-width: 1px;
 }
 .sectionCards {
   text-align: left;
+  float: right;
+  margin: 10px;
+}
+#sectionCards {
+  margin: 5px;
+  border-radius: 10px;
+}
+#dayCard {
+  background-color: blue;
+  border-width: 1px;
+  border-color: black;
+  margin: 10px;
+  border-style: ridge;
+}
+#fiveDayTitle {
+  font-weight: 600;
+  font-size: 24px;
+}
+#searchTitle {
+  font-weight: 600;
+  font-size: 16px;
+}
+.past {
+  background-color: red;
+  color: white;
+}
+
+.present {
+  background-color: yellow;
+  color: white;
+}
+
+.future {
+  background-color: #77dd77;
+  color: white;
 }
