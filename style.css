@@ -8,7 +8,12 @@
   width: 25%;
   clear: both;
 }
+#displayheading {
+  font-size: 28px;
+  font-weight: 600;
+}
 .container2 {
+  font-size: 24px;
   padding-left: 30%;
   float: center;
   clear: center;
@@ -19,4 +24,13 @@
 }
 .section {
   margin-top: 10px;
+}
+.currentWeathersecion {
+  background-color: gray;
+  margin: 5px;
+  border-width: 10%;
+  border-color: black;
+}
+.sectionCards {
+  text-align: left;
 }

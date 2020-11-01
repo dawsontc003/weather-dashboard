@@ -9,9 +9,9 @@
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
     <title>Weather-Dashboard</title>
   </head>
   <body>
@@ -19,21 +19,38 @@
     <div class="main">
       <textarea class="container1" id="city"></textarea>
       <button class="container1" id="search">search</button>
-      <div class="article">saved city here</div>
-      <div class="article">saved city here</div>
-      <div class="article">saved city here</div>
+      <button class="article" id="savedCity1">saved city here</button>
+      <button class="article">saved city here</button>
+      <button class="article">saved city here</button>
+      <button class="article">saved city here</button>
+      <button class="article">saved city here</button>
 
       <div class="container2">
-        current day weather details
-        <div class="section" id="city-and-date"></div>
-        <div class="section" id="current-temp"></div>
-        <div class="section" id="current-humidity"></div>
-        <div class="section" id="current-wind"></div>
-        <div class="section" id="current-uv"></div>
-        <div class="section cards">
-          <span>card 1</span><span>card 2</span> <span>card 3</span>
-          <span>card 4</span>
-          <span>card 5</span>
+        <div id="displayheading">Current Day Weather Details</div>
+        <div class="currentWeathersecion">
+          <div class="section" id="city-and-date"></div>
+          <div class="section" id="current-temp"></div>
+          <div class="section" id="current-humidity"></div>
+          <div class="section" id="current-wind"></div>
+          <div class="section" id="current-uv"></div>
+        </div>
+        <div class="sectionCards">
+          <span id="storage">date 1</span><span id="">date 2</span>
+          <span>date 3</span>
+          <span>date 4</span>
+          <span>date 5</span>
+          <div class="sectionCards">
+            <span id="nextDay1">card 1</span><span id="nextDay2">card 2</span>
+            <span id="nextDay3">card 3</span>
+            <span id="nextDay4">card 4</span>
+            <span id="nextDay5">card 5</span>
+          </div>
+          <div class="sectionCards">
+            <span id="humDay1">card 1</span><span id="humDay2">card 2</span>
+            <span id="humDay3">card 3</span>
+            <span id="humDay4">card 4</span>
+            <span id="humDay5">card 5</span>
+          </div>
         </div>
       </div>
     </div>
